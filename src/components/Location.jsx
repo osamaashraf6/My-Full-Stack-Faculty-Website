@@ -14,7 +14,6 @@ const specificLocation = {
 // 30.579394476886293, 31.010565842579496
 const Location = () => {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyCFfA47W9xXHOKqlkrvAK5xlyWiR7H1R5s",
     libraries,
   });
 
