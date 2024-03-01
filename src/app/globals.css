@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+.dropdown:hover .subdropdown {
+  visibility: visible;
+  opacity: 1;
+  /* display: block; */
+  margin-top: 32px;
+}
+.subdropdown {
+  transition: 0.5s ease-in-out;
+}
+.profs::-webkit-scrollbar {
+  height: 7px;
+}
+.profs::-webkit-scrollbar-thumb {
+  background-color: #6366f1;
+  border-radius: 5px;
+}
+.profs::-webkit-scrollbar-track {
+  background-color: #f1eded;
+}
+
+.accordion::-webkit-scrollbar {
+  width: 5px;
+}
+.accordion::-webkit-scrollbar-thumb {
+  background-color: #6366f1;
+  border-radius: 5px;
+}
+.accordion::-webkit-scrollbar-track {
+  background-color: #f1eded;
+}
