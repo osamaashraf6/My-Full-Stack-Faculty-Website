@@ -362,8 +362,7 @@ export const infoContactList = [
   },
 ];
 
-
-// 
+//
 
 export const data = [
   {
@@ -371,7 +370,7 @@ export const data = [
     category: "plc",
     content: [
       {
-        id: 1,                
+        id: 1,
         title: "leaderboard",
         list: {
           list1: "Microverse",
@@ -467,5 +466,55 @@ export const data = [
         source: "https://github.com/osamaashraf6/Budget-App/tree/dev",
       },
     ],
+  },
+];
+export const postList = [
+  {
+    id: 1,
+    author: "dave",
+    img: "https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80",
+
+    title: "Flexibility & Responsive",
+    shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam",
+  },
+  {
+    id: 2,
+    author: "dave",
+    img: "https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80",
+
+    title: "Dedicated Teams",
+    shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam",
+  },
+  {
+    id: 3,
+    author: "dave",
+    img: "https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80",
+
+    title: "Focusing on Business",
+    shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam",
+  },
+  {
+    id: 4,
+    author: "dave",
+    img: "https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80",
+
+    title: "Focusing on Business",
+    shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam",
+  },
+  {
+    id: 5,
+    author: "dave",
+    img: "https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80",
+
+    title: "Focusing on Business",
+    shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam",
+  },
+  {
+    id: 6,
+    author: "dave",
+    img: "https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80",
+
+    title: "Focusing on Business",
+    shortDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam",
   },
 ];

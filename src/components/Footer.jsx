@@ -16,7 +16,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[url('/dot-bg.png')] bg-cover bg-center h-[85vh] bg-[#042c4c] relative">
+      <footer className="bg-[url('/dot-bg.png')] bg-cover bg-center h-[86vh] bg-[#042c4c] relative">
         <div className="absolute w-full h-full top-0 left-0 bg-[#042c4c] bg-opacity-80">
           <div className="contents">
             <div className="dws border-b border-gray-500">

@@ -28,18 +28,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`nav ${
-          search == "specificcontact" && "shadow-lg bg-[#091947]"
-        }  
-        ${
-          (search == "register" || search == "login") &&
-          "shadow-lg bg-[#091946]"
-        }  
-        ${search == "subcat" && "shadow-lg bg-[#091946]"}  
-        ${search == "cat" && "shadow-lg bg-[#091946]"}
-        ${
-          search == "projects" && "bg-[#091947] shadow-lg "
-        } bg-transparent fixed w-full flex items-center h-20 z-[999] transition ease-in-out delay-150 ${
+        className={`nav bg-white shadow-lg fixed w-full flex items-center h-20 z-[999] transition ease-in-out delay-150 ${
           navBG && "shadow-lg"
         }`}
         style={{ backgroundColor: navBG && "#fff" }}
@@ -47,12 +36,7 @@ const Navbar = () => {
         <div className="container">
           <div className="flex justify-between items-center">
             <div className=" ">
-              <Link
-                href="/"
-                className={`text-xl font-bold ${
-                  navBG ? "text-indigo-500" : "text-white"
-                } `}
-              >
+              <Link href="/" className="text-xl font-bold text-indigo-500">
                 ECE Faculty
               </Link>
             </div>
@@ -61,7 +45,7 @@ const Navbar = () => {
                 <Link
                   href="/"
                   className={`px-5 block text-xs  hover:text-indigo-500 transition ease-in-out  ${
-                    navBG ? "text-black" : "text-white"
+                    navBG ? "text-black" : "text-indigo-500"
                   }`}
                 >
                   Home
@@ -71,7 +55,7 @@ const Navbar = () => {
                 <Link
                   href="/about"
                   className={`px-5 block text-xs  hover:text-indigo-500 transition ease-in-out  ${
-                    navBG ? "text-black" : "text-white"
+                    navBG ? "text-black" : "text-indigo-500"
                   }`}
                 >
                   About Us
@@ -82,7 +66,7 @@ const Navbar = () => {
                 <Link
                   href="/posts"
                   className={`px-5 block text-xs   hover:text-indigo-500 transition ease-in-out  ${
-                    navBG ? "text-black" : "text-white"
+                    navBG ? "text-black" : "text-indigo-500"
                   }`}
                 >
                   Blog
@@ -93,7 +77,7 @@ const Navbar = () => {
                 <Link
                   href="/dashboard"
                   className={`px-5 block text-xs  hover:text-indigo-500 transition ease-in-out  ${
-                    navBG ? "text-black" : "text-white"
+                    navBG ? "text-black" : "text-indigo-500"
                   }`}
                 >
                   Dashboard
@@ -103,7 +87,7 @@ const Navbar = () => {
                 <Link
                   href="/contact"
                   className={`px-5 block text-xs  hover:text-indigo-500 transition ease-in-out  ${
-                    navBG ? "text-black" : "text-white"
+                    navBG ? "text-black" : "text-indigo-500"
                   }`}
                 >
                   Contact
@@ -113,7 +97,7 @@ const Navbar = () => {
                 <Link
                   href=""
                   className={`px-5 flex gap-2 items-center text-xs  hover:text-indigo-500 transition ease-in-out  ${
-                    navBG ? "text-black" : "text-white"
+                    navBG ? "text-black" : "text-indigo-500"
                   }`}
                 >
                   More
@@ -182,7 +166,10 @@ const Navbar = () => {
                 </ul>
               </li>
             </ul>
-            <div className="">
+            <div className="flex gap-2">
+              <Link href="/dashboard/login" className="text-white text-xs bg-orange-500 w-[140px] flex justify-center items-center rounded">
+                Login
+              </Link>
               <button className="text-white text-xs bg-indigo-500 w-[140px] h-9 rounded">
                 Get It Support
               </button>
