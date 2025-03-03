@@ -1,8 +1,6 @@
 "use client";
 import { infoContactList } from "@/utils/data";
-import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
+
 import React, { useEffect, useState } from "react";
 
 const InfoContact = () => {

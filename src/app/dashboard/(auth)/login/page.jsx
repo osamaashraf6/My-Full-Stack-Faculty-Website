@@ -1,10 +1,9 @@
 "use client";
 import React from "react";
-// import { signIn, useSession } from "next-auth/react";
-// import { useRouter, useSearchParams } from "next/navigation";
+
 import Link from "next/link";
 
-const Login = ({ url }) => {
+const Login = () => {
   return (
     <>
       <section className="py-20 pt-40 flex justify-center items-center bg-gray-100">
