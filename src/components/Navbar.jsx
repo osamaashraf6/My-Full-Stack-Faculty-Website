@@ -3,13 +3,9 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import { useSearchParams } from "next/navigation";
 
 const Navbar = () => {
   const [navBG, setNavBG] = useState(false);
-  // const pathname = usePathname();
-  const searchParams = useSearchParams();
-  const search = searchParams.get("search");
   function scrollFunction() {
     if (
       document.body.scrollTop > 60 ||

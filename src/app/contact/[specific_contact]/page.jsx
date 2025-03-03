@@ -15,13 +15,8 @@ const SpecificContact = ({ params }) => {
     const updated = chooseList.filter((item) => item.id == specific_contact);
     setSpecificPerson(updated);
   }, [specific_contact]);
-  // const personEmailContact = () => {
-  //   const updated = specificPerson.map((item) => item.email);
-  //   // console.log(updated);
-  //   return updated;
-  // };
+   
   const handleChange = (selectedOption) => {
-    console.log("Selected Option:", selectedOption);
   };
 
   //

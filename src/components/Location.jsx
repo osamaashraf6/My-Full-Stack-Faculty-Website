@@ -11,7 +11,6 @@ const specificLocation = {
   lat: 30.57919,
   lng: 31.0106,
 };
-// 30.579394476886293, 31.010565842579496
 const Location = () => {
   const { isLoaded, loadError } = useLoadScript({
     libraries,

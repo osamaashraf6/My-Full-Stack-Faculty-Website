@@ -6,7 +6,6 @@ import React, { useEffect, useState } from "react";
 
 const FaqContent = () => {
   const [openIndex, setOpenIndex] = useState(null);
-  //   const [open, setOpen] = useState(false);
   const [faq, setFaq] = useState([]);
   const filterBtns = (category) => {
     const updated = faqList.filter((item) => item.category === category);
